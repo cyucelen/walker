@@ -56,13 +56,13 @@ func main() {
 ```
 [0 10]
 [1 10]
+[4 10]
 [2 10]
 [3 10]
-[4 10]
 [5 10]
-[7 10]
 [8 10]
 [9 10]
+[7 10]
 [6 10]
 ...
 to Infinity
@@ -70,6 +70,7 @@ to Infinity
 
 * `source` function will receive `start` as the page number and `count` as the number of documents. Use this values to fetch data from your source.
 * `sink` function will receive the result you returned from `source` and a `stop` function. You can save the results in this function and decide to stop sourcing any further pages depending on your results by calling `stop` function, otherwise it will continue to forever unless [a limit provided](#configuration).
+* Beware of order is not ensured since source and sink functions called concurrently.
 
 ### Walking through the pagination of API endpoints 
 
