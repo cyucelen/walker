@@ -31,7 +31,7 @@ The real purpose of the library is to provide a solution for walking through the
 * Provides a walker to paginate through the pagination of API endpoint. This is for scraping an API, if such a term exists.
 * `cursor` and `offset` pagination strategies.
 * Fetching and processing data concurrently without any effort.
-* Fetch count limiting
+* Total fetch count limiting
 * Rate limiting
 
 ## Examples
