@@ -55,7 +55,7 @@ func sink(result []int, stop func()) error {
 }
 
 func main() {
-	walker.New(source,sink).Walk()
+	walker.New(source, sink).Walk()
 }
 ```
 **Output:**
