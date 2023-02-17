@@ -106,14 +106,16 @@ Check [examples](/example/) for different usecases.
 
 ## Configuration
 
-| Option           | Description                                            | Default                     | Available Values                                          |     |     |     |     |     |     |
-| ---------------- | ------------------------------------------------------ | --------------------------- | --------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| WithPagination   | Defines the pagination strategy                        | `walker.OffsetPagination{}` | `walker.OffsetPagination{}`, `walker.CursorPagination{}`  |     |     |     |     |     |     |
-| WithMaxBatchSize | Defines max document count to fetch on each iteration  | `10`                        | `int`                                                     |     |     |     |     |     |     |
-| WithParallelism  | Defines number of workers to run provided source       | `runtime.NumCPU()`          | `int`                                                     |     |     |     |     |     |     |
-| WithLimiter      | Defines limit for document count to stop after reached | `walker.InfiniteLimiter()`  | `walker.InfiniteLimiter()`, `walker.ConstantLimiter(int)` |     |     |     |     |     |     |
-| WithRateLimit    | Defines rate limit by `count` and per `time.Duration`  | `unlimited`                 | `(int, time.Duration)`                                    |     |     |     |     |     |     |
-| WithContext      | Defines context                                        | `context.Background()`      | `context.Context`                                         |     |     |     |     |     |     |
+| Option           | Description                                            | Default                     | Available Values                                          |
+| ---------------- | ------------------------------------------------------ | --------------------------- | --------------------------------------------------------- |
+| WithPagination   | Defines the pagination strategy                        | `walker.OffsetPagination{}` | `walker.OffsetPagination{}`, `walker.CursorPagination{}`  |
+| WithMaxBatchSize | Defines limit for document count to stop after reached | 10                          | int                                                       |
+| WithParallelism  | Defines number of workers to run provided source       | `runtime.NumCPU()`          | int                                                       |
+| WithLimiter      | Defines limit for document count to stop after reached | `walker.InfiniteLimiter()`  | `walker.InfiniteLimiter()`, `walker.ConstantLimiter(int)` |
+| WithRateLimit    | Defines rate limit by `count` and per `time.Duration`  | Unlimited                   | `(int, time.Duration)`                                    |
+| WithContext      | Defines context                                        | `context.Background()`      | context.Context                                           |
 
 
-Feel free to contribute with your usecase!
+## Contribution
+
+I would like to accept any contributions to make `walker` better and feature rich. Feel free to contribute with your usecase!
