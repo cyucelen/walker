@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/cyucelen/walker/actions/workflows/go.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/cyucelen/marker/Go?branch=master" />
+    <img src="https://img.shields.io/github/actions/workflow/status/cyucelen/walker/go.yml?branch=master" />
   </a>
   <a href="https://codecov.io/gh/cyucelen/walker">
     <img src="https://codecov.io/gh/cyucelen/walker/branch/master/graph/badge.svg" />
