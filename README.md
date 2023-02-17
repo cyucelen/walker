@@ -28,7 +28,7 @@ The real purpose of the library is to provide a solution for walking through the
 
 ## Features
 
-* Provides a walker to paginate through the pagination of API endpoint. Basically scraping an API, if such a term exists.
+* Provides a walker to paginate through the pagination of API endpoint. This is for scraping an API, if such a term exists.
 * `cursor` and `offset` pagination strategies.
 * Fetching and processing data concurrently without any effort.
 * Fetch count limiting
@@ -103,7 +103,7 @@ To create API walker you just need to provide:
 * `RequestBuilder` function to create http request using provided values
 * `sink` function to process the http response
 
-Check [examples](/example/) for different usecases.
+Check [examples](/example/) for more usecases.
 
 ## Configuration
 
