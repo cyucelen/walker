@@ -22,7 +22,7 @@
 
 # walker
 
-Walker is a library that simplifies the process of fetching paginated data from any data source. With Walker, you can easily configure the start position and count of documents to fetch, depending on your needs. Additionally, Walker supports parallel processing, allowing you to fetch data more efficiently and at a faster rate.
+Walker simplifies the process of fetching paginated data from any data source. With Walker, you can easily configure the start position and count of documents to fetch, depending on your needs. Additionally, Walker supports parallel processing, allowing you to fetch data more efficiently and at a faster rate.
 
 The real purpose of the library is to provide a solution for walking through the pagination of API endpoints. With the `NewApiWalker`, you can easily fetch data from any paginated API endpoint and process the data. You can also create your own custom walker to fit your specific use case.
 
