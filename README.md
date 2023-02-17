@@ -110,11 +110,11 @@ Check [examples](/example/) for different usecases.
 | Option           | Description                                            | Default                     | Available Values                                          |
 | ---------------- | ------------------------------------------------------ | --------------------------- | --------------------------------------------------------- |
 | WithPagination   | Defines the pagination strategy                        | `walker.OffsetPagination{}` | `walker.OffsetPagination{}`, `walker.CursorPagination{}`  |
-| WithMaxBatchSize | Defines limit for document count to stop after reached | 10                          | int                                                       |
-| WithParallelism  | Defines number of workers to run provided source       | `runtime.NumCPU()`          | int                                                       |
+| WithMaxBatchSize | Defines limit for document count to stop after reached | `10`                        | `int`                                                     |
+| WithParallelism  | Defines number of workers to run provided source       | `runtime.NumCPU()`          | `int`                                                     |
 | WithLimiter      | Defines limit for document count to stop after reached | `walker.InfiniteLimiter()`  | `walker.InfiniteLimiter()`, `walker.ConstantLimiter(int)` |
-| WithRateLimit    | Defines rate limit by `count` and per `time.Duration`  | Unlimited                   | `(int, time.Duration)`                                    |
-| WithContext      | Defines context                                        | `context.Background()`      | context.Context                                           |
+| WithRateLimit    | Defines rate limit by **count** and per **duration**   | `unlimited`                 | `(int, time.Duration)`                                    |
+| WithContext      | Defines context                                        | `context.Background()`      | `context.Context`                                         |
 
 
 ## Contribution
