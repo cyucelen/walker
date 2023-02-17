@@ -9,6 +9,9 @@
   <a href="https://pkg.go.dev/github.com/cyucelen/walker?tab=doc">
     <img src="https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white" alt="godoc" title="godoc"/>
   </a>
+  <a href="https://github.com/cyucelen/walker/tags">
+    <img src="https://img.shields.io/github/v/tag/cyucelen/walker" alt="semver tag" title="semver tag"/>
+  </a>
   <a href="https://github.com/cyucelen/walker/actions/workflows/go.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/cyucelen/walker/go.yml?branch=master" />
   </a>
